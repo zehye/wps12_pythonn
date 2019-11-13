@@ -1,4 +1,5 @@
 from game import play_game
+from shop import play_game as play_game_shop
 import shop
 
 
@@ -9,6 +10,7 @@ if __name__ == '__main__':
         choice = input('choice 0, 1, 2 : ')
         if choice == '1':
             play_game()
+            play_game_shop()
         elif choice == '0':
             break
         elif choice == '2':
