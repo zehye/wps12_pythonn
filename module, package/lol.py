@@ -1,4 +1,4 @@
-import game
+from game import play_game
 import shop
 
 
@@ -8,7 +8,7 @@ if __name__ == '__main__':
     while True:
         choice = input('choice 0, 1, 2 : ')
         if choice == '1':
-            game.play_game()
+            play_game()
         elif choice == '0':
             break
         elif choice == '2':
